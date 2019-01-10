@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Alyssa Taylor.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -30,8 +30,12 @@ def double_a_float():
          Enter a number: -3.14
          -6.28
     """
+
+    n = float(input('Enter a floating a point number:'))
+    print(n * 2)
+
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
@@ -61,8 +65,15 @@ def print_an_integer_many_times():
          10
          10
     """
+
+    wow = int(input('Enter a positive integer:'))
+    i = 1
+    while i <= wow:
+        i = i + 1
+        print(wow * 2)
+
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
@@ -80,8 +91,15 @@ def print_an_integer_many_times_on_one_row():
          Enter an integer: 5
          1010101010
     """
+
+    howdy = int(input('Enter a positive integer:'))
+    num = howdy * 2
+    ans = str(num)
+    print(ans * howdy)
+
+
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
@@ -120,8 +138,25 @@ def input_it_all():
          Peace & Love.
          Peace & Love.
     """
+
+    x = float(input('Enter a positive floating point number:'))
+    y = int(input('Enter a positive integer:'))
+    z = input('Enter a String:')
+    root = x ** 0.5
+
+    i = 1
+    while i <= y:
+        i = i + 1
+        print(root)
+
+    i = 1
+    while i <= y:
+        i = i + 1
+        print(z)
+
+
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 

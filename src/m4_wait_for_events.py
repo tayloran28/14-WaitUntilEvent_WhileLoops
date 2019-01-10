@@ -30,8 +30,8 @@ Ultimately you should be comfortable with both approaches.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Alyssa Taylor.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
 
@@ -98,6 +98,17 @@ def sum_until_prime_input():
          Enter an integer greater than 1: 11
          The sum of the input integers is: 167
     """
+
+    x = int(input('Enter an integer greater than 1:'))
+
+    i = 0
+    while True:
+        i = is_prime(x)
+        break
+        return x
+
+
+
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #   The testing code is already written for you (above).
