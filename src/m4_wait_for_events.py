@@ -8,7 +8,7 @@ See your instructor for whether you should use:
 
      while True:
        ...
-       if <event has occurred>:
+       if <event has occurred>: 
            break
        ...
 -------------------------------------------------------------------------------
