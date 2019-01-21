@@ -101,7 +101,6 @@ def sum_until_prime_input():
 
     x = int(input('Enter an integer greater than 1:'))
 
-    i = 0
     while True:
         i = is_prime(x)
         break
